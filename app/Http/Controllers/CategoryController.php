@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
 
      public function get(){
-        return view('welcome');
+        return view('category');
      }
     public function index(): Response
     {

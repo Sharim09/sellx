@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug',255);
             $table->integer('status');
+            $table->string('icon');animate
             $table->timestamps();
         });
     }
